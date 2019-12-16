@@ -17,6 +17,7 @@ view: album_info {
   dimension: release_year {
    type: number
    sql: EXTRACT(YEAR FROM CAST(${TABLE}.album_release_date AS DATE));;
+  drill_fields: [song_album_list.artist_name, album_name]
   }
 
 
