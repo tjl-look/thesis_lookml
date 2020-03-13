@@ -5,6 +5,9 @@ view: song_audio_features {
     type: yesno
     sql: ${kt_listening_history.hour_played} IN (7,8,9,10,11) ;;
   }
+  filter: test {
+    type: date
+  }
 
   parameter: Measure_Select{
     type: string

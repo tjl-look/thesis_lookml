@@ -75,7 +75,7 @@ measure: Selected_artist_avg_danceability {
     field: Artist_Cohort_Yesno
     value: "yes"
   }
-  label: "{% parameter artist_name_selector %} Danceability"
+  label: "{% parameter artist_name_selector %}s Danceability"
 }
   measure: other_artist_avg_danceability {
     type: average
@@ -84,7 +84,7 @@ measure: Selected_artist_avg_danceability {
       field: Artist_Cohort_Yesno
       value: "no"
     }
-    label: "Other Artists Danceability"
+    label: "Other Artists' Danceability"
   }
 
   measure: Selected_artist_avg_valence {
@@ -94,7 +94,7 @@ measure: Selected_artist_avg_danceability {
       field: Artist_Cohort_Yesno
       value: "yes"
     }
-    label: "{% parameter artist_name_selector %} Valence"
+    label: "{% parameter artist_name_selector %}s Valence"
   }
   measure: other_artist_avg_valence {
     type: average
@@ -103,7 +103,7 @@ measure: Selected_artist_avg_danceability {
       field: Artist_Cohort_Yesno
       value: "no"
     }
-    label: "Other Artists Valence"
+    label: "Other Artists' Valence"
   }
 
   measure: Selected_artist_avg_acousticness {
@@ -113,7 +113,7 @@ measure: Selected_artist_avg_danceability {
       field: Artist_Cohort_Yesno
       value: "yes"
     }
-    label: "{% parameter artist_name_selector %} Acousticness"
+    label: "{% parameter artist_name_selector %}s Acousticness"
   }
   measure: other_artist_avg_acousticness {
     type: average
@@ -122,7 +122,7 @@ measure: Selected_artist_avg_danceability {
       field: Artist_Cohort_Yesno
       value: "no"
     }
-    label: "Other Artists Acousticness"
+    label: "Other Artists' Acousticness"
   }
   measure: Selected_artist_avg_energy{
     type: average
@@ -131,7 +131,7 @@ measure: Selected_artist_avg_danceability {
       field: Artist_Cohort_Yesno
       value: "yes"
     }
-    label: "{% parameter artist_name_selector %} Energy"
+    label: "{% parameter artist_name_selector %}s Energy"
   }
   measure: other_artist_avg_energy{
     type: average
@@ -140,7 +140,7 @@ measure: Selected_artist_avg_danceability {
       field: Artist_Cohort_Yesno
       value: "no"
     }
-    label: "Other Artists Energy"
+    label: "Other Artists' Energy"
   }
 
   measure: Selected_artist_avg_instrumentalness {
@@ -150,7 +150,7 @@ measure: Selected_artist_avg_danceability {
       field: Artist_Cohort_Yesno
       value: "yes"
     }
-    label: "{% parameter artist_name_selector %} Instrumentalness"
+    label: "{% parameter artist_name_selector %}s Instrumentalness"
   }
   measure: other_artist_avg_instrumentalness {
     type: average
@@ -159,7 +159,7 @@ measure: Selected_artist_avg_danceability {
       field: Artist_Cohort_Yesno
       value: "no"
     }
-    label: "Other Artists Instrumentalness"
+    label: "Other Artists' Instrumentalness"
   }
   measure: Selected_artist_avg_speechiness {
     type: average
@@ -168,7 +168,7 @@ measure: Selected_artist_avg_danceability {
       field: Artist_Cohort_Yesno
       value: "yes"
     }
-    label: "{% parameter artist_name_selector %} Speechiness"
+    label: "{% parameter artist_name_selector %}s Speechiness"
   }
   measure: other_artist_avg_speechiness {
     type: average
@@ -177,7 +177,7 @@ measure: Selected_artist_avg_danceability {
       field: Artist_Cohort_Yesno
       value: "no"
     }
-    label: "Other Artists Speechiness"
+    label: "Other Artists' Speechiness"
   }
 
 
